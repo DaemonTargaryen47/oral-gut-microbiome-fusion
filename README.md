@@ -2,13 +2,6 @@
 
 Interpretable ML analysis of paired stool and oral cavity microbiome samples, classifying age-group status (adult vs. newborn) while testing whether multi-site fusion adds real, non-redundant signal, not just accuracy.
 
-## Key Findings
-
-- Gut (stool) data alone achieves near-perfect classification (AUC = 1.00)
-- Combining stool and oral cavity data does not improve accuracy further
-- SHAP analysis shows the fused model still relies heavily on oral cavity features (58.1% of feature importance) despite no accuracy gain, evidence of real complementary signal between sites
-- Top taxa (*Malassezia restricta*, *Staphylococcus epidermidis*, *Prevotella melaninogenica*) match known early-life colonization biology, verified directly against the data
-
 ## Contents
 
 ```
