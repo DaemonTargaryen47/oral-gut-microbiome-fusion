@@ -1,0 +1,10 @@
+condition,model,mean_auc,std_auc,n_features
+stool,LogReg_L1,0.99,0.019999999999999976,291
+stool,RandomForest,1.0,0.0,291
+stool,XGBoost,0.96,0.04898979485566354,291
+oralcavity,LogReg_L1,0.97,0.03999999999999998,153
+oralcavity,RandomForest,0.975,0.049999999999999996,153
+oralcavity,XGBoost,0.975,0.049999999999999996,153
+stool+oralcavity,LogReg_L1,1.0,0.0,444
+stool+oralcavity,RandomForest,1.0,0.0,444
+stool+oralcavity,XGBoost,0.96,0.04898979485566354,444
